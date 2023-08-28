@@ -22,7 +22,7 @@ font = """
 <style>
 .stApp {{
   font-family: 'Helvetica';
-  color: white !important;
+ # color: white !important;
 }}
 </style>
 """
