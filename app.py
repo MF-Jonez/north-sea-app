@@ -29,11 +29,6 @@ font = """
 st.markdown(font, unsafe_allow_html=True)
 
 
-# Set the working directory
-os.chdir('C:\\Users\\azzed\\OneDrive\\Desktop\\Projects\\Seismic activity')
-
-
-
 # background of web app:
 with open("boats_background.jpg", "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode()
