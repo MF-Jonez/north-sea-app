@@ -17,12 +17,11 @@ import base64
 import xlrd
 from io import BytesIO
 
-# text font and colour
+# text font
 font = """
 <style>
 .stApp {{
   font-family: 'Helvetica';
- # color: white !important;
 }}
 </style>
 """
