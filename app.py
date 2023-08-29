@@ -77,7 +77,7 @@ def main():
     df = df.applymap(lambda x: '' if str(x) == '0' or x == 0 or x == 0.0 else x)
     #print(f"df after removing zeros has {df.shape[0]} rows")
     # Input block number
-    block_number = st.text_input("Enter main block number (please leave out any letters): ")
+    block_number = st.text_input("Enter main block number (please leave out any letters) - e.g. 21/5: ")
     #print(f"block number entered was {block_number}")
     if block_number:
        #block_number = int(block_number)
