@@ -125,14 +125,18 @@ def find_matching_rows_drilling(block):
             app_type = row['Application Type'].lower()
             formatted_app_type = None
             
-            if 'drilling' in app_type:
-                formatted_app_type = 'drilling'
-            elif 'consent to locate' in app_type:
-                formatted_app_type = 'consent to locate'
-            elif 'seismic' in app_type:
+            if 'seismic' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'vsp' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'geophysical' in app_type:
                 formatted_app_type = 'seismic'
             elif 'sub-bottom' in app_type:
                 formatted_app_type = 'sub-bottom profiler'
+            elif 'consent to locate' in app_type:
+                formatted_app_type = 'consent to locate'
+            elif 'drilling' in app_type:
+                formatted_app_type = 'drilling'
             elif 'marine' in app_type:
                 formatted_app_type = 'marine survey'
 
@@ -150,14 +154,18 @@ def find_matching_rows_pipeline(block):
             app_type = row['Application Type'].lower()
             formatted_app_type = None
             
-            if 'drilling' in app_type:
-                formatted_app_type = 'drilling'
-            elif 'consent to locate' in app_type:
-                formatted_app_type = 'consent to locate'
-            elif 'seismic' in app_type:
+            if 'seismic' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'vsp' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'geophysical' in app_type:
                 formatted_app_type = 'seismic'
             elif 'sub-bottom' in app_type:
                 formatted_app_type = 'sub-bottom profiler'
+            elif 'consent to locate' in app_type:
+                formatted_app_type = 'consent to locate'
+            elif 'drilling' in app_type:
+                formatted_app_type = 'drilling'
             elif 'marine' in app_type:
                 formatted_app_type = 'marine survey'
 
@@ -175,14 +183,18 @@ def find_matching_rows_well_intervention(block):
             app_type = row['Application Type'].lower()
             formatted_app_type = None
             
-            if 'drilling' in app_type:
-                formatted_app_type = 'drilling'
-            elif 'consent to locate' in app_type:
-                formatted_app_type = 'consent to locate'
-            elif 'seismic' in app_type:
+            if 'seismic' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'vsp' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'geophysical' in app_type:
                 formatted_app_type = 'seismic'
             elif 'sub-bottom' in app_type:
                 formatted_app_type = 'sub-bottom profiler'
+            elif 'consent to locate' in app_type:
+                formatted_app_type = 'consent to locate'
+            elif 'drilling' in app_type:
+                formatted_app_type = 'drilling'
             elif 'marine' in app_type:
                 formatted_app_type = 'marine survey'
 
@@ -200,14 +212,18 @@ def find_matching_rows_decom(block):
             app_type = row['Application Type'].lower()
             formatted_app_type = None
             
-            if 'drilling' in app_type:
-                formatted_app_type = 'drilling'
-            elif 'consent to locate' in app_type:
-                formatted_app_type = 'consent to locate'
-            elif 'seismic' in app_type:
+            if 'seismic' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'vsp' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'geophysical' in app_type:
                 formatted_app_type = 'seismic'
             elif 'sub-bottom' in app_type:
                 formatted_app_type = 'sub-bottom profiler'
+            elif 'consent to locate' in app_type:
+                formatted_app_type = 'consent to locate'
+            elif 'drilling' in app_type:
+                formatted_app_type = 'drilling'
             elif 'marine' in app_type:
                 formatted_app_type = 'marine survey'
 
@@ -225,14 +241,18 @@ def find_matching_rows_standalone(block):
             app_type = row['Application Type'].lower()
             formatted_app_type = None
             
-            if 'drilling' in app_type:
-                formatted_app_type = 'drilling'
-            elif 'consent to locate' in app_type:
-                formatted_app_type = 'consent to locate'
-            elif 'seismic' in app_type:
+            if 'seismic' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'vsp' in app_type:
+                formatted_app_type = 'seismic'
+            elif 'geophysical' in app_type:
                 formatted_app_type = 'seismic'
             elif 'sub-bottom' in app_type:
                 formatted_app_type = 'sub-bottom profiler'
+            elif 'consent to locate' in app_type:
+                formatted_app_type = 'consent to locate'
+            elif 'drilling' in app_type:
+                formatted_app_type = 'drilling'
             elif 'marine' in app_type:
                 formatted_app_type = 'marine survey'
 
