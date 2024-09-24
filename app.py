@@ -98,7 +98,7 @@ if __name__ == "__main__":
     #print(f"adjacent blocks df, after processing via main function, has {adjacent_blocks_df.shape[0]} rows")
     if adjacent_blocks_df is not None:
         # Proceed with the code to handle uploaded_file and other logic
-        uploaded_file = st.file_uploader("Upload the PETS Application Data, after downloading the excel file from here: https://itportal.beis.gov.uk/eng/fox/beis/PETS_EXTERNAL_PUBLICATION/main", type=['xlsx', 'xls'])
+        uploaded_file = st.file_uploader("Upload the PETS Application Data, after downloading the excel file from here: https://itportal.energysecurity.gov.uk/eng/fox", type=['xlsx', 'xls'])
 
         # Read the entire workbook into memory
         if uploaded_file:
